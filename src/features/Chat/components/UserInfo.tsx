@@ -54,7 +54,7 @@ const UserInfo = () => {
       >
         Cerrar sesión
       </button>
-      <div className="bg-blue-light px-5 py-3 w-full mt-10 flex items-center justify-between">
+      <div className="bg-blue-light px-5 py-3 w-full mt-10 md:flex items-center justify-between hidden">
         <p className="text-14 font-semibold">Datos del contacto </p>
         <ChevronUpIcon />
       </div>
