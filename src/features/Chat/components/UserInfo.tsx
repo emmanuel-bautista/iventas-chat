@@ -50,7 +50,7 @@ const UserInfo = () => {
           localStorage.removeItem("token");
           window.location.reload();
         }}
-        className="font-poppins text-14 font-bold text-primary underline mt-2"
+        className="font-poppins text-14 font-bold text-primary underline mt-2 md:hidden"
       >
         Cerrar sesión
       </button>

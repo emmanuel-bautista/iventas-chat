@@ -48,7 +48,9 @@ const MessageItem = ({ message, showAvatar, index }: MessageItemProps) => {
           !showAvatar && !isMessageFromLoggedUser && "md:ml-9"
         } `}
       >
-        <p className="font-poppins text-14">{message.content}</p>
+        <p className="font-poppins text-14 w-full text-ellipsis--2">
+          {message.content}
+        </p>
       </div>
     </div>
   );
