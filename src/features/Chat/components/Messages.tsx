@@ -71,7 +71,7 @@ const Messages = () => {
   };
 
   return (
-    <div className="w-full fixed top-0 max-h-full h-screen bg-light overflow-hidden flex flex-col">
+    <div className="w-full fixed top-0 md:relative max-h-full h-screen bg-light overflow-hidden flex flex-col">
       {isUserInfoVisible && (
         <div
           className="absolute w-full h-full"
